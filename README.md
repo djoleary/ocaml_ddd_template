@@ -48,6 +48,7 @@ This is a template for OCaml projects.
 - [menhir](https://github.com/ocaml-menhir/menhir)
 - [re2](https://github.com/janestreet/re2)
 - [fmt](https://erratique.ch/software/fmt)
+- [cmdliner](https://erratique.ch/software/cmdliner)
 
 ## License
 
