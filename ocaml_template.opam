@@ -12,6 +12,7 @@ bug-reports: "https://github.com/djoleary/ocaml_template/issues"
 depends: [
   "dune" {>= "3.20"}
   "ocaml"
+  "alcotest" {with-test}
   "odoc" {with-doc}
 ]
 build: [

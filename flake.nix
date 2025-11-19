@@ -25,14 +25,14 @@
 
             utop # REPL
 
-            ounit2 # unit test framework
+            alcotest # unit test framework
             bisect_ppx # test coverage
 
             odoc # documentation generator
 
-            menhir # parser generator
-
+            menhir # parser generator library
             janeStreet.re2 # regular expression library
+            fmt # pretty printing library
           ];
           sysTools = with pkgs; [
             go-task

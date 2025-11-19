@@ -19,7 +19,7 @@
  (name ocaml_template)
  (synopsis "A template for OCaml projects")
  (description "A template for OCaml projects using Dune")
- (depends ocaml)
+ (depends ocaml (alcotest :with-test))
  (tags
   ("project template")))
 

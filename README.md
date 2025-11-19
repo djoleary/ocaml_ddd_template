@@ -40,13 +40,14 @@ This is a template for OCaml projects.
 - [opam](https://opam.ocaml.org/)
 - [ocamlformat](https://ocaml.org/p/ocamlformat/latest/doc/index.html)
 - [odoc](https://ocaml.github.io/odoc/odoc/index.html)
-- [ounit2](https://ounit-dev.github.io/ounit2/)
+- [alchotest](https://github.com/mirage/alcotest)
 - [bisect_ppx](https://github.com/aantron/bisect_ppx)
 - [ocaml-lsp](https://github.com/ocaml/ocaml-lsp)
 - [earlybird](https://github.com/ocaml-lsp/earlybird)
 - [findlib](https://github.com/ocaml/ocamlfind)
 - [menhir](https://github.com/ocaml-menhir/menhir)
 - [re2](https://github.com/janestreet/re2)
+- [fmt](https://erratique.ch/software/fmt)
 
 ## License
 
