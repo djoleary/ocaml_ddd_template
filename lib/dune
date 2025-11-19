@@ -1,2 +1,3 @@
 (library
- (name ocaml_template))
+ (name ocaml_template)
+ (libraries re2 cmdliner))

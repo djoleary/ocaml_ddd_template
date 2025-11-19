@@ -45,7 +45,6 @@ This is a template for OCaml projects.
 - [ocaml-lsp](https://github.com/ocaml/ocaml-lsp)
 - [earlybird](https://github.com/ocaml-lsp/earlybird)
 - [findlib](https://github.com/ocaml/ocamlfind)
-- [menhir](https://github.com/ocaml-menhir/menhir)
 - [re2](https://github.com/janestreet/re2)
 - [fmt](https://erratique.ch/software/fmt)
 - [cmdliner](https://erratique.ch/software/cmdliner)
