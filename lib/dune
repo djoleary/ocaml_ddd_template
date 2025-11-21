@@ -1,3 +1,8 @@
 (library
  (name ocaml_template)
- (libraries re2 fmt cmdliner))
+ (libraries
+   domain
+   application
+   interface
+   infrastructure)
+ (wrapped false))

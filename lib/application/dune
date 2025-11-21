@@ -1,0 +1,5 @@
+(library
+  (name application)
+  (libraries domain interface)
+  ; (modules <module name>... )
+)

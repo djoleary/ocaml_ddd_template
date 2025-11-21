@@ -1,0 +1,5 @@
+(library
+  (name interface)
+  (libraries domain)
+  ; (modules_without_implementation <module name>... )
+)

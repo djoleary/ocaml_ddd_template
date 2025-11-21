@@ -65,3 +65,12 @@ tasks:
       - task: build
     cmds:
       - cmd: dune exec -- ./bin/main.exe {{.CLI_ARGS}}
+
+  repl:
+    desc: Opens a REPL for the project
+    interactive: true
+    preconditions:
+      - command -v dune
+      - command -v utop
+    cmds:
+      - cmd: dune utop
