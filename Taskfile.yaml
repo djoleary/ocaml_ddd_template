@@ -45,6 +45,13 @@ tasks:
     cmds:
       - cmd: dune build
 
+  build:watch:
+    desc: Builds the project when files change
+    preconditions:
+      - command -v dune
+    cmds:
+      - cmd: dune build --watch {{.CLI_ARGS}}
+
   build:release:
     desc: Builds a release version the project
     preconditions:
