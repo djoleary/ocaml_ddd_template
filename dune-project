@@ -19,7 +19,16 @@
  (name ocaml_template)
  (synopsis "A template for OCaml projects")
  (description "A template for OCaml projects using Dune")
- (depends ocaml (alcotest :with-test))
+ (depends
+   (ocaml (>= 5.2))
+   (alcotest :with-test)
+   (ppx_deriving :build)
+   (bisect_ppx :with-test)
+   (odoc :with-doc)
+   cmdliner
+   fmt
+   re2
+ )
  (tags
   ("project template")))
 

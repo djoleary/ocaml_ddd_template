@@ -11,9 +11,14 @@ doc: "https://github.com/djoleary/ocaml_template/docs/index.html"
 bug-reports: "https://github.com/djoleary/ocaml_template/issues"
 depends: [
   "dune" {>= "3.20"}
-  "ocaml"
+  "ocaml" {>= "5.2"}
   "alcotest" {with-test}
+  "ppx_deriving" {build}
+  "bisect_ppx" {with-test}
   "odoc" {with-doc}
+  "cmdliner"
+  "fmt"
+  "re2"
 ]
 build: [
   ["dune" "subst"] {dev}
