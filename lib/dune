@@ -5,4 +5,5 @@
    application
    interface
    infrastructure)
+ (instrumentation (backend bisect_ppx))
  (wrapped false))
