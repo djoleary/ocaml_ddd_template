@@ -1,7 +1,9 @@
 (library
-  (name application)
+  (name presentation)
   (libraries
-    domain)
+    application
+    domain
+    infrastructure)
   (inline_tests)
   (preprocess
     (pps

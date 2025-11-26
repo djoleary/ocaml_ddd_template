@@ -1,0 +1,9 @@
+(tests
+ (names
+   test_example)
+ (libraries
+   application
+   domain
+   infrastructure
+   presentation
+   ounit2))
