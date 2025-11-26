@@ -1,7 +1,9 @@
 (library
   (name application)
   (libraries
-    domain)
+    domain
+    fmt
+    logs)
   (inline_tests)
   (preprocess
     (pps

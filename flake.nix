@@ -36,6 +36,7 @@
             fmt # pretty printing library
             cmdliner # command line library
             ppx_deriving # derivers
+            logs # logging library
           ];
           sysTools = with pkgs; [
             go-task

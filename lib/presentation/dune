@@ -3,7 +3,9 @@
   (libraries
     application
     domain
-    infrastructure)
+    infrastructure
+    fmt
+    logs)
   (inline_tests)
   (preprocess
     (pps

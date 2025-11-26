@@ -1,6 +1,10 @@
 (library
   (name infrastructure)
-  (libraries application domain)
+  (libraries
+    application
+    domain
+    fmt
+    logs)
   (inline_tests)
   (preprocess
     (pps
