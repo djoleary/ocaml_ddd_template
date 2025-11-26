@@ -25,8 +25,10 @@
 
             utop # REPL
 
-            alcotest # unit test framework
+            ounit2 # unit test framework
             bisect_ppx # test coverage
+            qcheck # property-based testing
+            janeStreet.ppx_expect # inline test library
 
             odoc # documentation generator
 

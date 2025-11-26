@@ -21,8 +21,9 @@
  (description "A template for OCaml projects using Dune")
  (depends
    (ocaml (>= 5.2))
-   (alcotest :with-test)
    (ppx_deriving :build)
+   (ounit2 :with-test)
+   (qcheck :with-test)
    (bisect_ppx :with-test)
    (odoc :with-doc)
    cmdliner
