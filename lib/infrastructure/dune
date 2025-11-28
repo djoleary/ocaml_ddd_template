@@ -4,7 +4,11 @@
     application
     domain
     fmt
-    logs)
+    fmt.cli
+    fmt.tty
+    logs
+    logs.cli
+    logs.fmt)
   (inline_tests)
   (preprocess
     (pps

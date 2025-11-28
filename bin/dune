@@ -5,7 +5,4 @@
    domain
    application
    infrastructure
-   presentation
-   cmdliner
-   fmt
-   logs))
+   presentation))

@@ -4,8 +4,8 @@
     application
     domain
     infrastructure
-    fmt
-    logs)
+    cmdliner
+    fmt.cli)
   (inline_tests)
   (preprocess
     (pps
