@@ -4,4 +4,4 @@
  (libraries
    application
    domain
-   ounit2))
+   alcotest))

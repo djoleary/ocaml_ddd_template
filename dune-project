@@ -22,9 +22,11 @@
  (depends
    (ocaml (>= 5.2))
    (ppx_deriving :build)
-   (ounit2 :with-test)
+   (alcotest :with-test)
    (qcheck :with-test)
    (bisect_ppx :with-test)
+   (ppx_inline_test :with-test)
+   (ppx_expect :with-test)
    (odoc :with-doc)
    cmdliner
    fmt

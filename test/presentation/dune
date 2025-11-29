@@ -6,4 +6,6 @@
    domain
    infrastructure
    presentation
-   ounit2))
+   alcotest
+   qcheck-core
+   qcheck-alcotest))

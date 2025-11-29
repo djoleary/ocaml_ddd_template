@@ -3,4 +3,4 @@
    test_example)
  (libraries
    domain
-   ounit2))
+   alcotest))

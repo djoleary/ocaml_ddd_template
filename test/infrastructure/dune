@@ -5,4 +5,4 @@
    application
    domain
    infrastructure
-   ounit2))
+   alcotest))
